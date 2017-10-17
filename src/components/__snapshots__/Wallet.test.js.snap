@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wallet HTML (static) renders it correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WALLET
+    balance={20}
+    depositBalance={[Function]}
+    resetBalance={[Function]}
+    withDrawBalance={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3
+          className="balance"
+>
+          Wallet ballance 
+          20
+</h3>,
+        <Input
+          className="balance-input"
+          onChange={[Function]}
+          placeholder="$ dollars"
+          type="text"
+          value=""
+/>,
+        <Button
+          as="button"
+          className="deposit-btn"
+          disabled={true}
+          onClick={[Function]}
+>
+          Deposit
+</Button>,
+        <div>
+          <Button
+                    as="button"
+                    className="withdraw-btn"
+                    onClick={[Function]}
+          >
+                    Withdrawl
+          </Button>
+          <Button
+                    as="button"
+                    className="reset-btn"
+                    onClick={[Function]}
+          >
+                    Reset
+          </Button>
+</div>,
+      ],
+      "className": "WALLET",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Wallet ballance ",
+            20,
+          ],
+          "className": "balance",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Wallet ballance ",
+          20,
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "className": "balance-input",
+          "onChange": [Function],
+          "placeholder": "$ dollars",
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "as": "button",
+          "children": "Deposit",
+          "className": "deposit-btn",
+          "disabled": true,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Deposit",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Button
+              as="button"
+              className="withdraw-btn"
+              onClick={[Function]}
+>
+              Withdrawl
+</Button>,
+            <Button
+              as="button"
+              className="reset-btn"
+              onClick={[Function]}
+>
+              Reset
+</Button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "as": "button",
+              "children": "Withdrawl",
+              "className": "withdraw-btn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Withdrawl",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "as": "button",
+              "children": "Reset",
+              "className": "reset-btn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Reset",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3
+            className="balance"
+>
+            Wallet ballance 
+            20
+</h3>,
+          <Input
+            className="balance-input"
+            onChange={[Function]}
+            placeholder="$ dollars"
+            type="text"
+            value=""
+/>,
+          <Button
+            as="button"
+            className="deposit-btn"
+            disabled={true}
+            onClick={[Function]}
+>
+            Deposit
+</Button>,
+          <div>
+            <Button
+                        as="button"
+                        className="withdraw-btn"
+                        onClick={[Function]}
+            >
+                        Withdrawl
+            </Button>
+            <Button
+                        as="button"
+                        className="reset-btn"
+                        onClick={[Function]}
+            >
+                        Reset
+            </Button>
+</div>,
+        ],
+        "className": "WALLET",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Wallet ballance ",
+              20,
+            ],
+            "className": "balance",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Wallet ballance ",
+            20,
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "className": "balance-input",
+            "onChange": [Function],
+            "placeholder": "$ dollars",
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "as": "button",
+            "children": "Deposit",
+            "className": "deposit-btn",
+            "disabled": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Deposit",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Button
+                as="button"
+                className="withdraw-btn"
+                onClick={[Function]}
+>
+                Withdrawl
+</Button>,
+              <Button
+                as="button"
+                className="reset-btn"
+                onClick={[Function]}
+>
+                Reset
+</Button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "as": "button",
+                "children": "Withdrawl",
+                "className": "withdraw-btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Withdrawl",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "as": "button",
+                "children": "Reset",
+                "className": "reset-btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Reset",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
